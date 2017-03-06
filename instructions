@@ -1,0 +1,59 @@
+Turn off vi-compatibility
+  $ touch ~/.vimrc
+
+Enter Insertion Mode:
+  i	Before the letter
+  I	Beginning of line
+  a	After the letter
+  A	End of line
+  o	Open up a new line below the cursor
+  O	Open up a new line above the cursor
+
+Exit Insertion Mode
+Esc	Get back to command mode
+
+Navigation
+  h		Left
+  l		Right
+  k		Up
+  l		Down
+  w		Move to next beginning of word (punctuation is counted)
+  W		Move to next beginning of word (punctuation is not counted)
+  e		Move to next ending of word (punctuation is counted)
+  E		Move to next ending of word (punctuation is not counted)
+
+Replace:
+  r		Replace the current character
+  R		Replace all following characters
+  c     	Replace a block
+  C		Replace to the end of line
+
+Delete
+  x		Delete current character
+  X		Delete the leading character
+  d     	Delete a block
+  D		Delete to the end of line
+  dd		Delete a line
+
+Save
+  :w		Save
+
+Quit
+:q		Quit
+:q!		Quit without save
+:wq		Save and quit
+ZZ		Save and quit
+
+Undo and Redo
+  u		Undo the last command
+  U		Undo commands on the whole line
+  Ctrl+R	Redo
+
+Get help
+  :help		Get help
+  :help <text>	Get help with a command or function.
+    Ex: :help X (get help with command X)
+    EX: :help deleting (get help with function deleting)
+    Ex: :help Ctrl-R (get help with command Ctrl-R)
+    Ex: :help i_Ctrl-H (get help with command Ctrl-H in insertion mode)
+    Ex: :help <Up> (get help with up-arrow key)
